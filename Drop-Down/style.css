@@ -32,12 +32,14 @@ ul li {
     font-size: 20px;
     cursor: pointer;
     margin-right: 2px;
+    border-radius: 15px;
 }
 
 ul li a {
     text-decoration: none;
     color: white;
     display: block;
+    border-radius: 15px;
 }
 
 ul li a:hover {
@@ -50,4 +52,5 @@ ul li ul li {
 
 ul li:hover ul li{
     display: block;
+    border-radius: 15px;
 }
